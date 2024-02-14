@@ -8,3 +8,12 @@ body,
 html {
   height: 100%;
 }
+
+.info.legend {
+  max-height: 200px; /* Adjust this value to fit your content better */
+  overflow-y: auto; /* Add scrollbar if content exceeds the height */
+  background-color: #fff;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
